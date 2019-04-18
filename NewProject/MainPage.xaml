@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NewProject" x:Class="NewProject.MainPage">
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="500" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <BoxView BackgroundColor="#E10074" Grid.Column="0" Grid.Row="0">
+        </BoxView>
+        <BoxView BackgroundColor="#E10074" Grid.Column="0" Grid.Row="2">
+        </BoxView>
+        <Label Text="Monatsübersicht" Grid.Column="0" Grid.Row="0" XAlign="Center" YAlign="Center" TextColor="White" FontSize="30" />
+        <ScrollView Grid.Column="0" Grid.Row="1" BackgroundColor="White">
+            
+        </ScrollView>
+    </Grid>
+</ContentPage>
